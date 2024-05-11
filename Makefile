@@ -40,4 +40,4 @@ up-dependencies-only:
 	docker-compose -f docker-compose.dev.yml up --force-recreate db
 
 .PHONY: update
-update: install install-pre-commit ;
+update: install migrate install-pre-commit ;

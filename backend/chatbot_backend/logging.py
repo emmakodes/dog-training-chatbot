@@ -18,20 +18,11 @@ LOGGING = {
         logger_name: {
             'level': 'WARNING',
             'propagate': True,
-        } for logger_name in ('django', 'django.request', 'django.db.backends', 'django.template', 'dog_training_chatbot')
+        } for logger_name in
+        ('django', 'django.request', 'django.db.backends', 'django.template', 'dog_training_chatbot')
     },
     'root': {
         'level': 'DEBUG',
         'handlers': ['console'],
     }
 }
-
-
-
-
-
-
-
-
-
-
