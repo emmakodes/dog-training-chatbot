@@ -2,7 +2,6 @@ from django.core.management.utils import get_random_secret_key
 
 # from cooking_core.general.utils.cryptography import generate_key_pair
 
-
 # def generate_account():
 #     key_pair = generate_key_pair()
 #     print(f'Signing Key: {key_pair.private}')
